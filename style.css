@@ -63,11 +63,14 @@ body {
 /* --- NAVIGATION --- */
 .nav-container {
   width: 70%;
+  height: 10%;
   position: fixed;
   top: 30px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2000;
+  display: flex;
+  justify-content: center;
 }
 .nav-island {
   background: rgba(255, 255, 255, 0.03);
@@ -76,10 +79,13 @@ body {
   border-radius: 100px;
   border: 1px solid rgba(255, 255, 255, 0.08);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
 }
 .nav-links {
   display: flex;
   gap: 5px;
+  justify-content: center;
 }
 .nav-btn {
   color: var(--text-secondary);
