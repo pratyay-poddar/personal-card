@@ -399,4 +399,48 @@ body {
     bottom: 25px;
     top: auto;
   }
+  /* MOBILE OPTIMIZATION */
+@media (max-width: 850px) {
+    /* 1. Stack Hero sections vertically */
+    .hero-container { 
+        flex-direction: column-reverse; 
+        text-align: center; 
+        gap: 30px;
+    }
+
+    /* 2. Move Nav to bottom for easier thumb reach */
+    .nav-container { 
+        bottom: 20px; 
+        top: auto; 
+        width: 95%; 
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* 3. Make the island wider */
+    .nav-island { 
+        width: 100%; 
+        padding: 12px 10px; 
+    }
+
+    /* 4. Increase button size and spacing for tap-ability */
+    .nav-btn { 
+        padding: 12px 15px; 
+        font-size: 1.1rem; /* Larger icons */
+        flex: 1;
+        justify-content: center;
+    }
+
+    /* 5. Hide text labels on very small screens to prevent overlap */
+    .nav-btn span { 
+        display: none; 
+    }
+
+    /* 6. Adjust hero image size for mobile */
+    .hero-image-glow {
+        width: 250px;
+        height: 250px;
+    }
+}
+
 }
