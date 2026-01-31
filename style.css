@@ -322,6 +322,12 @@ body {
 }
 
 /* --- CONTACT --- */
+.page-content {
+  display: flex;
+  justify-content: center;
+  height: 95%;
+  width: 100%;
+}
 .card {
   width: clamp(340px, 95%, 450px);
   border-radius: 35px;
