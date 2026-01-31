@@ -62,8 +62,8 @@ body {
 
 /* --- NAVIGATION --- */
 .nav-container {
-  width: 70%;
-  height: 10%;
+  width: 80%;
+  
   position: fixed;
   top: 30px;
   left: 50%;
